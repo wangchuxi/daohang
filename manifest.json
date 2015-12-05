@@ -1,0 +1,16 @@
+{
+    "name": "newtab",
+    "version": "0.1",
+    "description": "新标签页导航。",
+    "chrome_url_overrides": {
+        "newtab": "background.html"
+    },
+    "icons" : {
+      "48" : "icon.png"
+    },
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+    "permissions": [ "declarativeContent","tabs", "unlimitedStorage"],
+    "manifest_version": 2
+}

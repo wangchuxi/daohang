@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="popup.css">
+	<script type="text/javascript" src="jquery.min.js"></script>
+</head>
+<body>
+	<div class="header">ssdsd</div>
+
+	<ul>
+		<li><a href="http://baidu.com">百度</a></li>
+	</ul>
+	<script type="text/javascript">
+	$('ul li').on('click',function(){
+		var a = $(this).find('a').attr('href')
+		console.log(a)
+	})
+	</script>
+</body>
+</html>
